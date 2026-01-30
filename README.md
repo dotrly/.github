@@ -3,14 +3,15 @@
   <p><strong>The Operating System for the Web</strong></p>
   
   <p>
-    <a href="https://relay.notapublicfigureanymore.com">Website</a> •
-    <a href="https://relay.notapublicfigureanymore.com/docs/developers">Documentation</a> •
+    <a href="https://relay.dev">Website</a> •
+    <a href="https://docs.relay.dev">Documentation</a> •
     <a href="https://github.com/dotrly/relay">GitHub</a>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
     <img src="https://img.shields.io/badge/status-beta-orange.svg" alt="Status" />
+    <img src="https://img.shields.io/badge/location-Switzerland-red.svg" alt="Switzerland" />
   </p>
 </div>
 
@@ -62,7 +63,7 @@ Relay is built on a modular architecture designed for security and performance.
 
 Relay prioritizes user safety through a "locked-by-default" architecture.
 
-1.  **Isolation**: Every app runs in a **securely isolated context** (Shadow DOM + VM), not just a basic iframe.
+1.  **Isolation**: Every app runs in a restricted iframe sandbox.
 2.  **Permissions**: Access to file system or shell commands requires explicit user approval via the secure Helper bridge.
 3.  **Governance**: The Relay Runtime enforces a mandatory "Close Protocol", ensuring no app can hold the user hostage.
 
@@ -71,10 +72,10 @@ Relay prioritizes user safety through a "locked-by-default" architecture.
 Relay Apps are standard React applications enhanced with the Relay SDK.
 
 ```bash
-relay create-app my-new-app
+npx relay create-app my-new-app
 ```
 
-See the [Documentation](https://relay.notapublicfigureanymore.com/docs/developers) for API references, including File System access and Ollama AI integration.
+See the [Documentation](https://docs.relay.dev) for API references, including File System access and Ollama AI integration.
 
 ## Contributing
 
