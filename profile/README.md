@@ -4,7 +4,7 @@
   
   <p>
     <a href="https://relay.notapublicfigureanymore.com">Website</a> •
-    <a href="https://https://relay.notapublicfigureanymore.com/docs/developers">Documentation</a> •
+    <a href="https://relay.notapublicfigureanymore.com/docs/developers">Documentation</a> •
     <a href="https://github.com/dotrly/relay">GitHub</a>
   </p>
 
