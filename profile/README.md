@@ -62,7 +62,7 @@ Relay is built on a modular architecture designed for security and performance.
 
 Relay prioritizes user safety through a "locked-by-default" architecture.
 
-1.  **Isolation**: Every app runs in a restricted iframe sandbox.
+1.  **Isolation**: Every app runs in a **securely isolated context** (Shadow DOM + VM), not just a basic iframe.
 2.  **Permissions**: Access to file system or shell commands requires explicit user approval via the secure Helper bridge.
 3.  **Governance**: The Relay Runtime enforces a mandatory "Close Protocol", ensuring no app can hold the user hostage.
 
