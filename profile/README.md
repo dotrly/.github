@@ -71,7 +71,7 @@ Relay prioritizes user safety through a "locked-by-default" architecture.
 Relay Apps are standard React applications enhanced with the Relay SDK.
 
 ```bash
-npx relay create-app my-new-app
+relay create-app my-new-app
 ```
 
 See the [Documentation](https://relay.notapublicfigureanymore.com/docs/developers) for API references, including File System access and Ollama AI integration.
