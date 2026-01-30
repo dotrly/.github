@@ -3,8 +3,8 @@
   <p><strong>The Operating System for the Web</strong></p>
   
   <p>
-    <a href="https://relay.dev">Website</a> •
-    <a href="https://docs.relay.dev">Documentation</a> •
+    <a href="https://relay.notapublicfigureanymore.com">Website</a> •
+    <a href="https://https://relay.notapublicfigureanymore.com/docs/developers">Documentation</a> •
     <a href="https://github.com/dotrly/relay">GitHub</a>
   </p>
 
@@ -74,7 +74,7 @@ Relay Apps are standard React applications enhanced with the Relay SDK.
 npx relay create-app my-new-app
 ```
 
-See the [Documentation](https://docs.relay.dev) for API references, including File System access and Ollama AI integration.
+See the [Documentation](https://relay.notapublicfigureanymore.com/docs/developers) for API references, including File System access and Ollama AI integration.
 
 ## Contributing
 
